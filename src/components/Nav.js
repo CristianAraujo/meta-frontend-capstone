@@ -24,10 +24,10 @@ const Logotype = (props) => {
 
 const Nav = (props) => {
     return (
-        <>
+        <div className="navegation">
             <Logotype />
             <MenuBar />
-        </>
+        </div>
     )
 }
 

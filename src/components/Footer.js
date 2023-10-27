@@ -47,12 +47,12 @@ const VerticalNavigationSocial = (props) => {
 
 const Footer = () => {
     return (
-        <>
+        <footer className="footer">
             <FooterImg />
             <VerticalNavigation />
             <VerticalNavigationContact />
             <VerticalNavigationSocial />
-        </>
+        </footer>
     )
 }
 

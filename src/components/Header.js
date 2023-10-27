@@ -1,5 +1,5 @@
 const Header = (props) => {
-    return <header>header</header>
+    return <header className="header">header</header>
 }
 
 export { Header };

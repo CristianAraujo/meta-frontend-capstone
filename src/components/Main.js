@@ -1,5 +1,5 @@
 const Main = (props) => {
-    return <main>main</main>
+    return <main className="main">main</main>
 }
 
 export { Main };
