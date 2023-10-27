@@ -1,16 +1,15 @@
-import './App.css';
+import { Nav } from './components/Nav';
+import { Header } from './components/Header';
+import { Main } from './components/Main';
+import { Footer } from './components/Footer';
 
 function App() {
   return (
     <>
-      <nav></nav>
-      <header></header>
-      <main>
-        <section className='specials'></section>
-        <section className='testimonials'></section>
-        <section className='about-us'></section>
-      </main>
-      <footer></footer>
+      <Nav />
+      <Header />
+      <Main />
+      <Footer />
     </>
   );
 }
