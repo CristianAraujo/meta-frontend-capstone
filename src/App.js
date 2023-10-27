@@ -2,9 +2,16 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Little Lemon</h1>
-    </div>
+    <>
+      <nav></nav>
+      <header></header>
+      <main>
+        <section className='specials'></section>
+        <section className='testimonials'></section>
+        <section className='about-us'></section>
+      </main>
+      <footer></footer>
+    </>
   );
 }
 
