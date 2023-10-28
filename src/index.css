@@ -3,23 +3,26 @@
   margin: 0;
 }
 
+
 /* Defining layout */
 body {
   display: grid;
-  background-color: aqua;
+  /* margin: 0 15%; */
+  /* padding: 0 15%; */
 }
 
 .navegation {
-  background-color: red;
+  /* margin: 0 15%; */
+  padding: 1.5rem 15%;
   display: flex;
+  gap: 10%;
 }
 
 .header {
-  background-color: blue;
 }
 
 .main {
-  background-color: green;
+  /* background-color: green; */
 }
 
 .footer {
