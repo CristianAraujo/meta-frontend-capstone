@@ -21,3 +21,37 @@
   --highlight_font: 500 16px 'Karla';
 }
 
+
+/* Nav styles */
+.nav {
+  flex-grow: 1;
+  font: var(--highlight_font);
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  height: 100%;
+}
+
+.nav-item {
+  flex-grow: 1;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--black);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link:hover {
+  background-color: var(--main_green);
+  color: var(--light_gray)
+}
+
+/* Header styles */
