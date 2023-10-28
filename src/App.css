@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,500;0,700;0,800;1,400;1,500;1,700;1,800&display=swap');
+
+:root {
+  /* Color Palette */
+  --main_green: #495E57;
+  --main_yellow: #F4CE14;
+  --salmon: #EE9972;
+  --light_salmon: #FBDABB;
+  --light_gray: #EDEFEE;
+  --black: #333333;
+
+  /* Font Styles */
+  --title_font: 64px 'Markazi Text', serif;
+  --subtitle_font: 40px 'Markazi Text', serif;
+  --ledtext_font: 500 18px 'Karla', serif;
+  --section_title_font: 800 20px 'Karla', serif;
+  --categories_font: 800 16px  'Karla', serif;
+  --card_title_font: 700 18px  'Karla', serif;
+  --paragraph_font: 400 16px 'Karla', sans-serif;
+  --highlight_font: 500 16px 'Karla';
+}
+
