@@ -55,3 +55,54 @@
 }
 
 /* Header styles */
+.header {
+  padding: 2rem 18%;
+  background-color: var(--main_green);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6rem;
+}
+
+.hero {
+  padding-right: 6rem;
+}
+
+.hero-title {
+  font: var(--title_font);
+  color: var(--main_yellow);
+  /* padding: 0; */
+}
+
+.hero-subtitle {
+  font: var(--subtitle_font);
+  color: var(--light_gray);
+  margin-top: 0;
+}
+
+.hero-description {
+  font: var(--ledtext_font);
+  color: var(--light_gray);
+  padding: 2rem 0;
+  margin-right: 2rem;
+}
+
+.hero-button {
+  background-color: var(--main_yellow);
+  padding: 1rem 2rem;
+  border: none;
+  color: var(--black);
+  font: var(--highlight_font);
+  border-radius: 10px;
+}
+
+.hero-figure {
+  position: relative;
+}
+
+.hero-img {
+  border-radius: 10px;
+  width: 100%;
+  position: absolute;
+  height: 25rem;
+  object-fit: cover;
+}
