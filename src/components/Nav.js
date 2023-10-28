@@ -2,14 +2,14 @@ import Logo from '../assets/brand/Logo.svg'
 
 const MenuBar = (props) => {
     return  (
-        <nav>
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Menu</li>
-                <li>Reservations</li>
-                <li>Order Online</li>
-                <li>Login</li>
+        <nav className="nav">
+            <ul className='nav-list'>
+                <li className='nav-item'><a href='#' className='nav-link'>Home</a></li>
+                <li className='nav-item'><a href='#' className='nav-link'>About</a></li>
+                <li className='nav-item'><a href='#' className='nav-link'>Menu</a></li>
+                <li className='nav-item'><a href='#' className='nav-link'>Reservations</a></li>
+                <li className='nav-item'><a href='#' className='nav-link'>Order Online</a></li>
+                <li className='nav-item'><a href='#' className='nav-link'>Login</a></li>
             </ul>
         </nav>
     );
