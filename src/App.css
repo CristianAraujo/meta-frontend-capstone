@@ -17,7 +17,7 @@
   --section_title_font: 800 20px 'Karla', serif;
   --categories_font: 800 16px  'Karla', serif;
   --card_title_font: 700 18px  'Karla', serif;
-  --paragraph_font: 400 16px 'Karla', sans-serif;
+  --paragraph_font: 400 16px/24px 'Karla', sans-serif;
   --highlight_font: 500 16px 'Karla', sans-serif;
 }
 
@@ -292,3 +292,42 @@
 }
 
 /* Testimonials card styles */
+.about {
+  padding: 5rem 18%;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  gap: 1rem;
+}
+
+.about-subtitle {
+  font: var(--subtitle_font);
+}
+
+.about-description {
+  font: var(--paragraph_font);
+  margin-top: 2rem;
+  margin-right: 4rem;
+}
+
+.about-img-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.about-img {
+  display: block;
+  width: 85%;
+  position: absolute;
+}
+
+.about-img__front {
+  top: 0;
+  right: 0;
+}
+
+.about-img__back {
+  bottom: 0;
+  left: 0;
+  border-top: 5px solid white ;
+  border-right: 5px solid white ;
+}
