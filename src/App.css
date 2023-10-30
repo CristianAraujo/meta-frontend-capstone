@@ -235,3 +235,60 @@
   font: var(--highlight_font);
   color: var(--black);
 }
+
+/* Testimonials styles */
+.testimonials {
+  background-color: var(--main_green);
+  padding: 4rem 18%;
+}
+
+.testimonials-title {
+  color: var(--main_yellow);
+  text-align: center;
+  font-size: 40px;
+  margin: 0 0 2rem ;
+}
+
+.testimonials-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
+
+
+.testimonials-card {
+  background-color: var(--light_gray);
+  border-radius: 16px;
+  padding: 2rem;
+}
+
+.card-rating {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-rating__star {
+  width: 20px;
+}
+
+.testimonials-card-img {
+  display: block;
+  width: 100%;
+  border-radius: 50%;
+  margin: 1.5rem 0;
+}
+
+.card-curstomer-name {
+  font: var(--section_title_font);
+  font-size: 18px;
+  color: var(--black);
+  text-align: center;
+}
+
+.card-curstomer-review {
+  margin-top: 0.5rem;
+  font: var(--paragraph_font);
+  text-align: center;
+}
+
+/* Testimonials card styles */
