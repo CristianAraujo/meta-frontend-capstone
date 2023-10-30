@@ -200,3 +200,38 @@
 .delivery-icon {
   width: 16px;
 }
+
+/* Footer Styles */
+.footer {
+  background-color: var(--light_gray);
+  padding: 2rem 18%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.vertical-nav {
+  padding: 0 0.5rem;
+}
+
+.footer-img {
+  width: 40%;
+  object-fit: cover;
+}
+
+.vertical-nav__title {
+  font: var(--section_title_font);
+}
+
+.vertical-nav__list {
+  padding: 0;
+} 
+
+.vertical-nav__item {
+  list-style: none;
+}
+
+.vertical-nav__link {
+  text-decoration: none;
+  font: var(--highlight_font);
+  color: var(--black);
+}
