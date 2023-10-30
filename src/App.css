@@ -18,7 +18,7 @@
   --categories_font: 800 16px  'Karla', serif;
   --card_title_font: 700 18px  'Karla', serif;
   --paragraph_font: 400 16px 'Karla', sans-serif;
-  --highlight_font: 500 16px 'Karla';
+  --highlight_font: 500 16px 'Karla', sans-serif;
 }
 
 
@@ -105,4 +105,38 @@
   position: absolute;
   height: 25rem;
   object-fit: cover;
+}
+
+/* Main styles */
+.main {
+  padding: 5rem 18%;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.section-title {
+  font: var(--title_font);
+  color: var(--black);
+}
+
+.cto-button {
+  background-color: var(--main_yellow);
+  padding: 1rem 2rem;
+  border: none;
+  color: var(--black);
+  font: var(--highlight_font);
+  border-radius: 10px;
+}
+
+.main-menu {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
 }
