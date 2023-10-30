@@ -139,4 +139,64 @@
   gap: 2rem;
 }
 
+/* Card styles */
+.menu-card {
+  background-color: var(--light_gray);
+  /* background-color: red; */
+  overflow: hidden;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  /* display: grid; */
+  /* grid-template-rows: 1fr 3fr; */
+}
+
+.menu-card__figure {
+  display: grid;
+  grid-template-rows: 40% 60%;
+}
+
+.menu-card__img {
+  width: 100%;
+  /* height: 40%; */
+  display: block;
+  object-fit: fill;
+}
+
+.menu-card__caption {
+  padding: 1.5rem;
+  display: grid;
+  grid-template-rows: auto 2fr auto;
+  /* justify-items: stretch; */
+}
+
+.caption-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.caption-title {
+  color: var(--black);
+  font: semibold 24px 'Markazi Text', serif;
+}
+
+.caption-price {
+  color: var(--salmon);
+  font: var(--highlight_font);
+}
+
+.caption-body {
+  margin: 1.5rem 0;
+  font: var(--paragraph_font);
+}
+
+.caption-footer {
+  display: flex;
+  justify-content: space-between;
+  /* color: var(--black); */
+  font: var(--highlight_font);
+}
+
+.delivery-icon {
+  width: 16px;
 }
