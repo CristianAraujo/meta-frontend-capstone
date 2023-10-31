@@ -5,12 +5,12 @@ import Reservations from './components/Reservations';
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Routes>
         <Route path='/' element={<Homepage />} />
         <Route path='/reservations' element={<Reservations />} />
       </Routes>
-    </div>
+    </>
   );
 }
 
