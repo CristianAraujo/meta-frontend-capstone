@@ -91,7 +91,6 @@
   background-color: var(--main_yellow);
   padding: 1rem 2rem;
   border: none;
-  color: var(--black);
   font: var(--highlight_font);
   border-radius: 10px;
 }
@@ -109,27 +108,39 @@
 }
 
 /* Main styles */
-.specials {
+.midle-section__container {
   padding: 5rem 18%;
 }
 
-.specials-header {
+.midle-section__header {
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding: 1rem 0;
 }
 
-.section-title {
+.midle-header__specials {
+  justify-content: space-between;
+}
+
+.midle-header__reservations {
+  justify-content: center;
+}
+
+.midle-section__title {
   font: var(--title_font);
   color: var(--black);
+}
+
+.midle-title__reservations {
+  font: var(--title_font);
+  color: var(--black);
+  justify-content: center;
 }
 
 .cto-button {
   background-color: var(--main_yellow);
   padding: 1rem 2rem;
   border: none;
-  color: var(--black);
   font: var(--highlight_font);
   border-radius: 10px;
 }
@@ -140,10 +151,15 @@
   color: black;
 }
 
-.main-menu {
+.midle-section__specials {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
+}
+
+.midle-section__reservations {
+  display: flex;
+  justify-content: center;
 }
 
 /* Menu card styles */
@@ -340,4 +356,35 @@
   left: 0;
   border-top: 5px solid white ;
   border-right: 5px solid white ;
+}
+
+/* Book Form styles */
+.book-form {
+  width: 60%;
+  display: grid;
+  grid-template-columns: 1fr;
+  /* gap: 1rem; */
+}
+
+.book-form input {
+  padding:0.5rem 1rem;
+}
+
+.book-form textarea {
+  min-height: 10rem;
+}
+
+.book-form label {
+  font: var(--highlight_font);
+  margin-top: 1rem;
+  margin-bottom: 0.2rem;
+} 
+
+.must {
+  color: red;
+  font-weight: bold;
+}
+
+.book-form button {
+  margin-top: 1rem;
 }
