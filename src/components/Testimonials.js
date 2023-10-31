@@ -1,80 +1,40 @@
-import star from '../assets/icons/star-icon.svg';
+import RatingCard from './RatingCard';
 
 const Testimonials = (props) => {
     return (
         <section className="testimonials">
             <h2 className="section-title testimonials-title">Testimonials</h2>
             <div className="testimonials-container">
-                <article className="testimonials-card">
-                    <div className="card-rating">
-                        <img src={star} alt="Star icon" className="card-rating__star" />
-                        <img src={star} alt="Star icon" className="card-rating__star" />
-                        <img src={star} alt="Star icon" className="card-rating__star" />
-                        <img src={star} alt="Star icon" className="card-rating__star" />
-                        <img src={star} alt="Star icon" className="card-rating__star" />
-                    </div>
-                    <img src={require('../assets/images/customer-1.jpg')} className="testimonials-card-img" alt="Customer" />
-                    <div className="card-body">
-                        <p className='card-curstomer-name'>John Doe</p>
-                        <p className='card-curstomer-review'>
-                            The food is always delicious and the service is top-notch.
-                        </p>
-                    </div>
-                </article>
+                <RatingCard 
+                    rating={5}
+                    image={require('../assets/images/customer_1.jpg')}
+                    customerName="John Dofe"
+                    customerReview="The food is always delicious and the service is top-notch."
+                />
 
-                <article className="testimonials-card">
-                    <div className="card-rating">
-                        <img src={star} alt="Star icon" className="card-rating__star" />
-                        <img src={star} alt="Star icon" className="card-rating__star" />
-                        <img src={star} alt="Star icon" className="card-rating__star" />
-                        <img src={star} alt="Star icon" className="card-rating__star" />
-                        <img src={star} alt="Star icon" className="card-rating__star" />
-                    </div>
-                    <img src={require('../assets/images/customer-1.jpg')} className="testimonials-card-img" alt="Customer" />
-                    <div className="card-body">
-                        <p className='card-curstomer-name'>John Doe</p>
-                        <p className='card-curstomer-review'>
-                            The food is always delicious and the service is top-notch.
-                        </p>
-                    </div>
-                </article>
+                <RatingCard 
+                    rating={4}
+                    image={require('../assets/images/customer_2.jpg')}
+                    customerName="Margot Daw"
+                    customerReview="I really like the food here. The service is always quick and friendly."
+                />
 
-                <article className="testimonials-card">
-                    <div className="card-rating">
-                        <img src={star} alt="Star icon" className="card-rating__star" />
-                        <img src={star} alt="Star icon" className="card-rating__star" />
-                        <img src={star} alt="Star icon" className="card-rating__star" />
-                        <img src={star} alt="Star icon" className="card-rating__star" />
-                        <img src={star} alt="Star icon" className="card-rating__star" />
-                    </div>
-                    <img src={require('../assets/images/customer-1.jpg')} className="testimonials-card-img" alt="Customer" />
-                    <div className="card-body">
-                        <p className='card-curstomer-name'>John Doe</p>
-                        <p className='card-curstomer-review'>
-                            The food is always delicious and the service is top-notch.
-                        </p>
-                    </div>
-                </article>
+                <RatingCard 
+                    rating={4}
+                    image={require('../assets/images/customer_3.jpg')}
+                    customerName="Matthew Jones"
+                    customerReview="I usually order from here and it's always fresh and delicious."
+                />
 
-                <article className="testimonials-card">
-                    <div className="card-rating">
-                        <img src={star} alt="Star icon" className="card-rating__star" />
-                        <img src={star} alt="Star icon" className="card-rating__star" />
-                        <img src={star} alt="Star icon" className="card-rating__star" />
-                        <img src={star} alt="Star icon" className="card-rating__star" />
-                        <img src={star} alt="Star icon" className="card-rating__star" />
-                    </div>
-                    <img src={require('../assets/images/customer-1.jpg')} className="testimonials-card-img" alt="Customer" />
-                    <div className="card-body">
-                        <p className='card-curstomer-name'>John Doe</p>
-                        <p className='card-curstomer-review'>
-                            The food is always delicious and the service is top-notch.
-                        </p>
-                    </div>
-                </article>
+                <RatingCard 
+                    rating={4}
+                    image={require('../assets/images/customer_4.jpg')}
+                    customerName="Chris Smith"
+                    customerReview="Greek Salad is my favorite dish. I share time with my family here."
+                />
             </div>
         </section>
     )
 }
 
-export { Testimonials };
+export default Testimonials;
