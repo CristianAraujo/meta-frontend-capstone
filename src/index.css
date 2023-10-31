@@ -3,28 +3,7 @@
   margin: 0;
 }
 
-
 /* Defining layout */
 body {
   display: grid;
-  /* margin: 0 15%; */
-  /* padding: 0 15%; */
-}
-
-.navegation {
-  /* margin: 0 15%; */
-  padding: 1.5rem 18%;
-  display: flex;
-  gap: 10%;
-}
-
-.header {
-}
-
-.main {
-  /* background-color: green; */
-}
-
-.footer {
-
 }
