@@ -23,6 +23,12 @@
 
 
 /* Nav styles */
+.navegation {
+  padding: 2rem 18%;
+  display: flex;
+  gap: 10%;
+}
+
 .nav {
   flex-grow: 1;
   font: var(--highlight_font);
@@ -54,8 +60,8 @@
   color: var(--light_gray)
 }
 
-/* Header styles */
-.header {
+/* Hero styles */
+.hero {
   padding: 2rem 18%;
   background-color: var(--main_green);
   display: grid;
@@ -63,14 +69,9 @@
   gap: 6rem;
 }
 
-.hero {
-  padding-right: 6rem;
-}
-
 .hero-title {
   font: var(--title_font);
   color: var(--main_yellow);
-  /* padding: 0; */
 }
 
 .hero-subtitle {
@@ -108,11 +109,11 @@
 }
 
 /* Main styles */
-.main {
+.specials {
   padding: 5rem 18%;
 }
 
-.main-header {
+.specials-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -133,40 +134,41 @@
   border-radius: 10px;
 }
 
+.cto-button:hover {
+  background-color: var(--light_gray);
+  cursor: pointer;
+  color: black;
+}
+
 .main-menu {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
 }
 
-/* Card styles */
+/* Menu card styles */
 .menu-card {
   background-color: var(--light_gray);
-  /* background-color: red; */
   overflow: hidden;
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
-  /* display: grid; */
-  /* grid-template-rows: 1fr 3fr; */
-}
-
-.menu-card__figure {
   display: grid;
   grid-template-rows: 40% 60%;
 }
 
+.card-image-container {
+  overflow: hidden;
+}
+
 .menu-card__img {
-  width: 100%;
-  /* height: 40%; */
+  width: 110%;
   display: block;
-  object-fit: fill;
 }
 
 .menu-card__caption {
   padding: 1.5rem;
   display: grid;
   grid-template-rows: auto 2fr auto;
-  /* justify-items: stretch; */
 }
 
 .caption-header {
@@ -193,7 +195,6 @@
 .caption-footer {
   display: flex;
   justify-content: space-between;
-  /* color: var(--black); */
   font: var(--highlight_font);
 }
 
@@ -207,13 +208,14 @@
   padding: 2rem 18%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
 }
 
 .vertical-nav {
   padding: 0 0.5rem;
 }
 
-.footer-img {
+.logo-vertical {
   width: 40%;
   object-fit: cover;
 }
@@ -234,6 +236,14 @@
   text-decoration: none;
   font: var(--highlight_font);
   color: var(--black);
+  cursor: pointer;
+}
+
+.vertical-nav__link:hover {
+  display: block;
+  font-weight: bold;
+  color: var(--main_green);
+  text-decoration: underline;
 }
 
 /* Testimonials styles */
